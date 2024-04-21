@@ -72,4 +72,5 @@ router.put('/:id', async function (req, res) {
     }
 })
 
+// github mein changes kaise push krna hai....bss yhi check krne ke liye yhan ye comment add krne ka naatak krr rha hu 
 module.exports = router;
