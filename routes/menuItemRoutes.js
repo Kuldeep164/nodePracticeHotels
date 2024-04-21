@@ -29,9 +29,9 @@ router.get('/', async function(req, res) {
 
         res.status(200).json(data);
     } catch (error) {
+        console.log('github test krna chaahta hu bss isliye ye console log add krr rha');
         res.status(500).json({ error : 'Lo Bhai aagya na koi internal server error' });
     }
 })
-
 
 module.exports = router;
